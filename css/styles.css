@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+/* CLEAR FLOATS */
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+/* TYPE SELECTORS */
+
+img {
+    width: 100%;
+}
+
+
+/* ----------- CLASS SELECTORS --------- */
+
+.center-content {
+    margin: 0 5%;
+}
+
+/* HEADER SECTION */
+
+/* MAIN SECTION */
+
+/* FOOTER SECTION */
+
