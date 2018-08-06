@@ -14,7 +14,33 @@
 img {
     width: 100%;
 }
+h2 {
+    margin: 10% 0;
+}
+a {
+    text-decoration: none;
+    display: block;
+    width: 95%;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: pink;
+}
+a:hover {
+    color: rgb(21, 63, 155);
+}
+p {
+    font-size: 0.95em;
+    line-height: 1.5em;
+}
 
+
+
+header img {
+   padding: 0 14%;
+}
 
 /* ----------- CLASS SELECTORS --------- */
 
@@ -24,7 +50,18 @@ img {
 }
 
 /* HEADER SECTION */
-
+.header-nav a {
+    height: 43px;
+    padding: 5% 0;
+    font-weight: bold;
+}
+.header-nav {
+    margin-bottom: 20%;
+}
+.header-nav li {
+    margin: 2% 0;
+    background-color: antiquewhite;
+}
 /* MAIN SECTION */
 
 /* FOOTER SECTION */
