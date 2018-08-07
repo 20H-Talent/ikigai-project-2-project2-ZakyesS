@@ -10,7 +10,9 @@
 }
 
 /* TYPE SELECTORS */
-
+body {
+    font-size: 1em;
+}
 img {
     width: 100%;
 }
@@ -130,4 +132,33 @@ footer {
     font-size: 0.95em;
     margin: 20% 0 10% 0;
     border-top: rgb(206, 204, 204) 1px solid;
+}
+
+
+/* FOR DEVICES TABLET DEVICES */
+@media (min-width: 768px) {
+    /* body {
+        font-size: 1em;
+    } */
+    /* Header section */
+    h2 {
+        margin: 10% 0 3% 0;
+    }
+    .header-nav {
+        margin-bottom: 8%;
+    }
+    .header-nav li {
+        display: inline-block;
+        width: 27%;
+        margin: 2% -1%;
+    }
+    header img {
+        padding: 0 0;
+        float: right;
+        width: 284px;
+        margin-left: 12px;
+    }
+    header p {
+       text-align: left;
+    }
 }
