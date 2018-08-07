@@ -43,10 +43,14 @@ p {
     line-height: 1.5em;
 }
 
-
-
 header img {
    padding: 0 14%;
+}
+
+
+
+footer {
+    margin-top: 20%;
 }
 
 /* ----------- CLASS SELECTORS --------- */
@@ -85,3 +89,45 @@ header img {
 
 /* FOOTER SECTION */
 
+#contact {
+    margin-bottom: 10%;
+}
+#phone {
+    margin-top: 10%;
+}
+#phone,
+#email {
+    font-size: 1em;
+}
+#phone span,
+#email span {
+    font-weight: bold;
+}
+.nav-big-devices {
+    display: none;
+}
+.nav-big-devices li {
+    display: inline-block;
+    margin-right: 2%;
+}
+.nav-mobile {
+    display: block;
+    width: 39%;
+    margin: 7% -2% 0 0;
+}
+.nav-big-devices,
+.nav-mobile {
+    float: right;
+    font-weight: bold;
+}
+#studentName {
+    float:left;
+    font-weight: bold;
+    margin-top: 7%;
+    margin-bottom: 0;
+}
+.bottom-footer {
+    font-size: 0.95em;
+    margin: 20% 0 10% 0;
+    border-top: rgb(206, 204, 204) 1px solid;
+}
