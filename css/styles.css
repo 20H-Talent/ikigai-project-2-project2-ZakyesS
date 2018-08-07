@@ -161,4 +161,37 @@ footer {
     header p {
        text-align: left;
     }
+
+    /* Main section */
+
+    h4 {
+        margin-bottom: 3%;
+    }
+    main h3 {
+        margin-top: 6%;
+    }
+    .section-one,
+    .section-two,
+    .section-three,
+    .section-four,
+    .section-five,
+    .section-six {
+        width: 49%;
+        margin: 4% 0;
+        /* border: 1px solid green; */
+    }
+    .section-two,
+    .section-four,
+    .section-six {
+        float: right;
+    }
+    .section-one,
+    .section-three,
+    .section-five {
+        float: left;
+    }
+    main p {
+        padding: 0 7%;
+    }
+
 }
