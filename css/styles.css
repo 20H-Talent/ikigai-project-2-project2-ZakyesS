@@ -227,30 +227,42 @@ footer {
 
 @media (min-width: 1024px) {
 
+    header {
+       height: auto;
+    }
     /* Header section */
     #home {
-        margin: 6% 16% 3% 0;
-        display: inline-block;
+        /* margin: 6% 16% 3% 0; */
+        margin: 6% 0 3% 0;
+        /* display: inline-block; */
+        float: left;
         font-size: 2em;
     }
     .header-nav {
-        display: inline-block;
-        width: 49%;
-        margin-top: 4%;
-        margin-left: 101px;
+        /* display: inline-block; */
+        float: right;
+        width: 34%;
+        /* margin-top: 4%;
+        margin-left: 101px; */
+        margin: 4% 0 3% 0;
     }
     .header-nav li {
         width: 34%;
         display: inline-block;
         text-align: right;
-        margin: 2% -3px;
+        /* margin: 2% -3px; */
     }
     .header-nav a {
         padding: 8% 0;
     }
     header img {
-        width: 366px;
+        width: auto;
         margin-left: 30px;
+        float: right;
+    }
+    header p {
+        /* float: left; */
+        width: 58%;
     }
 
     /* Main section */
