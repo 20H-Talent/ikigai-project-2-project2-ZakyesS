@@ -206,6 +206,9 @@ footer {
     #contact {
         margin-bottom: 8%;
     }
+    #contact-text {
+        padding: 0 59px;
+    }
     .nav-mobile {
         display: none;
     }
@@ -273,4 +276,28 @@ footer {
         padding: 0 6%;
     }
 
+    /* Footer section */
+    footer {
+        margin-top: 5%;
+    }
+    #contact-text {
+        padding: 0 206px;
+    }
+    #phone {
+        margin-top: 5%;
+    }
+    .bottom-footer {
+        margin: 9% 0 3% 0;
+    }
+    #studentName {
+        margin-top: 3%;
+    }
+    .nav-big-devices {
+        margin-top: 3%;
+        width: 39%;
+    }
+    .nav-big-devices li {
+        margin-left: 17%;
+        margin-right: -11%;
+    }
 }
