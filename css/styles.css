@@ -249,4 +249,28 @@ footer {
         width: 366px;
         margin-left: 30px;
     }
+
+    /* Main section */
+   h4 {
+       font-size: 1.5em;
+       margin-bottom: 5%;
+   }
+   .section-one,
+    .section-two,
+    .section-three,
+    .section-four,
+    .section-five,
+    .section-six {
+        width: 30%;
+        float: left;
+        margin: 4% 1% 4% 2%;
+    }
+    main h3 {
+        margin-top: 12%;
+        /* font-size: 1.5em; */
+    }
+    main p {
+        padding: 0 6%;
+    }
+
 }
