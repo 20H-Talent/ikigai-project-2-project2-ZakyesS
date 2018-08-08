@@ -29,7 +29,7 @@ main h3 {
 a {
     text-decoration: none;
     display: block;
-    width: 95%;
+    width: 100%;
 }
 a:link {
     color: black;
@@ -86,9 +86,6 @@ footer {
 }
 
 
-
-
-
 /* FOOTER SECTION */
 
 #contact {
@@ -110,12 +107,14 @@ footer {
 }
 .nav-big-devices li {
     display: inline-block;
-    margin-right: 2%;
 }
 .nav-mobile {
     display: block;
-    width: 39%;
-    margin: 7% -2% 0 0;
+    width: 29%;
+    margin-top: 7%;
+}
+.nav-mobile li {
+    font-size: 0.80em;
 }
 .nav-big-devices,
 .nav-mobile {
@@ -194,4 +193,23 @@ footer {
         padding: 0 7%;
     }
 
+    /* Footer section */
+    footer {
+        margin-top: 10%;
+    }
+    #contact {
+        margin-bottom: 8%;
+    }
+    .nav-mobile {
+        display: none;
+    }
+    .nav-big-devices {
+       display: block;
+       width: 43%;
+       margin-top: 7%;
+    }
+    .nav-big-devices li {
+        margin-left: 9%;
+
+    }
 }
