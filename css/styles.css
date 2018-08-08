@@ -111,7 +111,6 @@ footer {
 }
 .nav-mobile {
     display: block;
-    width: 29%;
     margin-top: 7%;
 }
 .nav-mobile li {
@@ -214,11 +213,12 @@ footer {
     }
     .nav-big-devices {
        display: block;
-       width: 43%;
+       width: auto;
        margin-top: 7%;
+       margin-right: -4px;
     }
     .nav-big-devices li {
-        margin-left: 9%;
+        margin-right: 9px;
 
     }
 }
@@ -306,10 +306,11 @@ footer {
     }
     .nav-big-devices {
         margin-top: 3%;
-        width: 39%;
+        width: auto;
+        margin-right: 0
     }
     .nav-big-devices li {
-        margin-left: 17%;
-        margin-right: -11%;
+        margin-left: 18px;
+        margin-right: 0;
     }
 }
